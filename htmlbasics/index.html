@@ -40,12 +40,12 @@
     <div>
   <form method="post">
 
-    <input type="text"  name="username" required value="myname is shubham" placeholder="Please Enter Your Name in Here"/> <br/>
+    <input type="text" pattern="^[0-9]*$" name="username" required value="myname is shubham" placeholder="Please Enter Your Name in Here"/> <br/>
     <label>Password (*) </label> <br/>
-    <input  type="password" required style="margin-top: 20px;"/>  <br/>
+    <input  type="password"  placeholder="Please Enter Your Password in Here" required style="margin-top: 20px;"/>  <br/>
     <input type="date" min="2020-01-01"  max="2025-01-01" required/> <br/>
 
-    <input type="number" /> <br/>
+    <input type="number" maxlength="10"  minlength=""/> <br/>
 
     <input type="email" placeholder="@ is required" /> <br/>
 
@@ -86,12 +86,49 @@
     I am a developer ,i love       <a href="http://stackoverflow.com" target="blank">stackoverflow.com</a>
 </p>
 
-        <a href="http://google.com" target="blank"> Redirect To Google</a>
+        <a  href="http://google.com" target="blank"> Redirect To Google</a>
+        <a href="#" aria-disabled="true"> Redirect To Amazon</a>
+
     </div>
 
 
+<div>
+
+    <table border="20px">
+        <thead>
+            <th>Name</th>
+            <th>Age</th>
+           
+
+        </thead>
+
+        <tbody>
+         <tr>
+             <td><strong>John</strong></td>
+             <td>22</td>
 
 
+
+         </tr>
+
+         <tr>
+            <td>Johnny</td>
+            <td>28</td>
+
+
+
+        </tr>
+
+
+        </tbody>
+
+
+
+
+    </table>
+    
+
+</div>
 
 
 
